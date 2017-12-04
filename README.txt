@@ -10,4 +10,4 @@ The plot focuses on a group of recently-escaped replicants led by Roy Batty, and
 
 Like many movies that I particularly enjoy, there are many quotable lines. 
 
-You can find this project at http://www.lisabronwyn.com/blade-runner-quote-generator
+You can find this project at https://github.com/lisabronwyn/blade-runner
