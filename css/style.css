@@ -11,7 +11,7 @@ body {
   background-image: url("blade-runner.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: block;
   position: relative;
   height: 100%;
@@ -19,7 +19,6 @@ body {
 
 .container {
   padding: 10%;
-  width: 50%;
   color: #46b8da;
   position: relative;
 }
