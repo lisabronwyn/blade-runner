@@ -72,7 +72,7 @@ body {
 }
 
 #quoteButton {
-  position: inherit;
+  position: static;
   display: block;
 }
 
