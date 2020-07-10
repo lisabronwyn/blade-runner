@@ -73,7 +73,7 @@ body {
 
 #quoteButton {
   position: static;
-  display: block;
+  display: inherit;
 }
 
 #quoteGenius {
