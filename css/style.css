@@ -48,7 +48,7 @@ body {
 }
 
 #buttonContainer {
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
   color: #fff;
   text-decoration: none;
   opacity: 0.6;
-  padding-top; 5px;
+  margin-top; 5px;
 }
 
 #quoteButton:hover {
