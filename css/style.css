@@ -1,98 +1,98 @@
 body {
-  color: #4C5B68;
-  margin: 0;
-  padding: 0;
-  background-color: #1A1B1D;
-  text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
+	color: #4C5B68;
+	margin: 0;
+	padding: 0;
+	background-color: #1A1B1D;
+	text-align: center;
 }
 
 .wrapper {
-  background-image: url("blade-runner.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  position: relative;
-  height: 100%;
+	background-image: url("blade-runner.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	position: relative;
+	height: 100%;
 }
 
-.container {
-  padding: 25%;
-  color: #46b8da;
-  position: relative;
+.container{
+	padding: 200px;
+	width:50%;
+	color: #46b8da;
+	position: relative;
 }
 
-.container h2 {
-  color: #316986;
-  text-shadow: 1px 1px 1px #FAFAFA;
-  position: relative;
-  text-align: left;
-	font-size: 3em;
+.container h2{
+	color:#fff;
+	text-shadow: 1px 1px #771F1F;
+	position: relative;
+	text-align: left;
 }
 
-#quoteContainer {
-  background: #4C5B68;
-  position: sticky;
-  padding: 10px;
-  text-align: center;
-  height: 20%;
-  opacity: 0.7;
-  color: #fff;
-  font-size: 1em;
-	font-weight: 200;
-	line-height: 2em;
-	border: 1px solid #fafafa;
-  margin-bottom: 5px;
+#quoteContainer{
+	width: 60%;
+	background: #4C5B68;
+	/*background-image: url("blade.jpg");*/
+	position: sticky;
+	padding: 10px;
+	margin-top: 30px;
+	text-align: center;
+  height: 120px;
+	opacity: 0.5;
+	color: #fff;
+	font-size: 110%;
 }
 
-#buttonContainer {
-  width: 50%;
-  text-align: center;
+#buttonContainer{
+	width: 100%;
+	text-align: center;
 }
 
-#quoteButton {
-  font-weight: 300;
-  width: 50%;
-  text-align: center;
-  border: 2px solid #46b8da;
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.6;
-  margin-top; 5px;
+#quoteButton{
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+	width:61%;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	color:#fff;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	opacity: 0.6;
 }
 
-#quoteButton:hover {
-  cursor: default;
-  background: #09c;
-  color: #fff;
+#quoteButton:hover{
+	cursor:default;
+	background:#09c;
+	color: #fff;
 }
 
-#quoteButton:active {
-  cursor: pointer;
+#quoteButton:active{
+	cursor: pointer;
 }
 
-#quoteButton {
-  position: absolute;
-  display: block;
+#quoteButton{
+	position: relative;
+	display: block;
+	margin-top: 20px 5px 10px 5px;
 }
 
-#quoteGenius {
-  font-style: italic;
-  font-weight: 800;
-  text-align: center;
+#quoteGenius{
+	font-style: italic;
+	font-weight: 800;
+	text-align: center;
 }
 
 .footer {
-  position: relative;
-  display: block;
-  background-color: #1B1C1E;
-  font-size: 18px;
-	font-weight: 100;
-  color: #999;
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
+	position: relative;
+	display: block;
+	background-color: #1A1B1D;
+	font-size: 10px;
+	color: #999;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
 }
 
 
@@ -206,36 +206,6 @@ body {
   and (orientation: landscape) {
 
 }
-
-Skip to main content
-CSS-Tricks
-Articles
-Videos
-Almanac
-Newsletter
-Guides
-Books
-Account
-Search for:
-e.g. flexbox
-Search
-Guide
-Media Queries for Standard Devices
-Last Updated
-Jun 17, 2020
-This page lists a ton of different devices and media queries that would specifically target that device. That’s probably not generally a great practice, but it is helpful to know what the dimensions for all these devices are in a CSS context.
-
-If you think responsive’s simple, I feel bad for you son. We got 99 viewports, but the iPhone’s just one.
-—Josh Brewer, March 10, 2010
-
-A major component of responsive design is creating the right experience for the right device. With a gazillion different devices on the market, this can be a tall task. We’ve rounded up media queries that can be used to target designs for many standard and popular devices that is certainly worth a read.
-
-If you’re looking for a comprehensive list of media queries, this repository is a good resource.
-
-If you’re reaction to this is: you should never base your breakpoints on devices!! You have a good point. Justin Avery has a nice post on the possible pitfalls of using device-specific breakpoints. Choosing breakpoints based on your design and not specific devices is a smart way to go. But sometimes you just need a little help getting one particular situation under control.
-
-Phones and Handhelds
-iPhones
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
