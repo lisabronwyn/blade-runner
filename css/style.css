@@ -71,10 +71,6 @@ body {
   cursor: pointer;
 }
 
-#quoteButton {
-  position: relative;
-  display: block;
-}
 
 #quoteGenius {
   font-style: italic;
