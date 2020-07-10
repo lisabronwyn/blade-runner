@@ -55,10 +55,12 @@ body {
 #quoteButton {
   font-weight: 300;
   width: 100%;
+  text-align: center;
   border: 2px solid #46b8da;
   color: #fff;
   text-decoration: none;
   opacity: 0.6;
+  padding-top; 10%;
 }
 
 #quoteButton:hover {
