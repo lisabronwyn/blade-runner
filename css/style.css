@@ -54,11 +54,9 @@ body {
 
 #quoteButton {
   font-weight: 300;
-  width: 71%;
-  margin-top: 10px;
+  width: 100%;
   border: 2px solid #46b8da;
   color: #fff;
-  padding: 5px;
   text-decoration: none;
   opacity: 0.6;
 }
