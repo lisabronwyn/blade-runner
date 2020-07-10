@@ -183,8 +183,9 @@ $(document).ready(() => {
       quote:"You newer models are happy scraping the shit... because you've never seen a miracle.",
       name: "Lt. Joshi"
     },
-      quote:"Demonstrate it. I want to see it work.",
+    { quote:"Demonstrate it. I want to see it work.",
       name: "Eldon Tyrell"
+    },
   ];
 
   $('#quoteButton').click(evt => {
